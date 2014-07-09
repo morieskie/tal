@@ -1,0 +1,29 @@
+{
+    "name": "yiisoft/yii2-tal",
+    "type": "yii2-extension",
+    "description": "PHP Template Attribute Language integration for the Yii framework",
+    "keywords": ["yii2", "tal", "phptal", "renderer"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?labels=ext%3Atal",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "authors": [
+        {
+            "name": "Derick Fynn",
+            "email": "dcfynn@vodamail.co.za"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "phptal/phptal": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\tal\\": ""
+        }
+    }
+}
